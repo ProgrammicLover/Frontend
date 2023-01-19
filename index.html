@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Limpon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- МЕТА -->
+    <title>Заголовок</title>
+    <meta name="description" content="описание не длиннее 155 символов">
+    <meta name="keywords" content="мета-теги, шаблон, html, css">
+    
+    <!-- Контролирует поведение поисковых систем при индексации страницы --> 
+    <meta name="robots" content="index,follow,noodp"><!-- Все поисковые системы -->
+    <meta name="googlebot" content="index,follow"><!-- Указание отдельно для Google -->
+    
+    <!-- Позволяет указать Google не показывать в поисковой выдаче поле для поиска по сайту -->
+    <meta name="google" content="nositelinkssearchbox"><!-- Позволяет указать Google не предлагать перевести эту страницу -->
+    <meta name="google" content="notranslate"><!-- Подтверждает авторство страницы в Google Search Console -->
+    <meta name="google-site-verification" content="verification_token"> <!-- Тег указания ПО, которое сгенерировало эту страницу -->
+    <meta name="generator" content="program"><!-- Короткое описание тематики вашего сайта -->
+    <meta name="subject" content="тематика вашего сайта"><!-- open graph Facebook-->
+    <meta content="Заголовок">
+    <meta content="website">
+    
+    <!-- если сайт многоязычный -->
+    <!-- <meta property="og:locale" content="ru_RU"> -->
+    <meta content="http://localhost.my">
+    
+    <!-- не меньше 600х315, не более 8Мб -->
+    <meta content="http://localhost.my/img/og_cover.jpg">
+    <meta content="описание не длиннее 155 символов">
+    <meta content="Facebook ID">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ник_компании_в_твиттере">
+    <meta name="twitter:title" content="Заголовок">
+    <meta name="twitter:description" content="описание не длиннее 155 символов">
+    <meta name="twitter:creator" content="@ник_в_твиттере">
+    
+    <!-- картинка не меньше 280х150, не более 1Мб -->
+    <meta name="twitter:image" content="http://localhost.my/img/tw_cover.jpg">
+    
+    <!-- G+ / Pinterest -->
+    <meta content="Заголовок">
+    <meta content="описание не длиннее 155 символов">
+    <meta content="http://localhost.my/img/g_cover.jpg">
+    
+    <!-- Google authorship -->
+    <link rel="author" href="https://plus.google.com/[Google+_Profile]/posts" data-mce-href="https://plus.google.com/[Google+_Profile]/posts">
+    <link rel="publisher" href="https://plus.google.com/[Google+_Page_Profile]" data-mce-href="https://plus.google.com/[Google+_Page_Profile]">
+    
+    <!-- Фавиконы и иконки сайта --> 
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" data-mce-href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" data-mce-href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" data-mce-href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" data-mce-href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" data-mce-href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" data-mce-href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" data-mce-href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" data-mce-href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" data-mce-href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" data-mce-href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" data-mce-href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" data-mce-href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" data-mce-href="/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4">
+    
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4">
+    
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Яндекс.Браузер -->
+    <meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</he++ad>
+
+<div class="page-header">
+    <div class="wrap">
+        <div class="box-header">
+        <a href="#" class="logo"></a>
+        <ul class="nav">
+            <li><a href="" class="nav-item">Home</a></li>
+            <li><a href="" class="nav-item">Features</a></li>
+            <li><a href="" class="nav-item">Video</a></li>
+            <li><a href="" class="nav-item">Screens</a></li>
+            <li><a href="" class="nav-item">Pricing</a></li>
+            <li><a href="" class="nav-item">Team</a></li>
+            <li><a href="" class="btn-primary btn-free">Free trail</a></li>
+        </ul>
+        </div>
+
+        <h1>Best Software Landingpage</h1>
+        <div class="btn-group">
+            <button class="btn-primary">get started now</button>
+            <button class="btn-secondary">learn more</button>
+        </div>
+
+    </div>
+
+    <div class="screen-header">
+        
+    </div>
+</div>
+    </div>
+
+    <!-- 2 sponsors-->
+    <div class="sponsors" style="background-color: blue">
+        <div class="wraper">
+            <ul>
+                <li style="display: inline-block;"><img src="img/bg_1.png" alt="token"></li>
+                <li style="display: inline-block;"><img src="img/bg_2.png" alt="magneto"></li>
+                <li style="display: inline-block;"><img src="img/bg_3.png" alt="boohoo"></li>
+                <li style="display: inline-block;"><img src="img/bg_4.png" alt="fractal`"></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="grid">
+        <h2><span>Features</span>Best Features Ever Seen</h2>
+            <div class="instrument">
+                <li style="display: inline-block;"><img src="img/icon.png" alt="dokument"><h3>Well Documented</h3><p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p><a href="#">Read More</a></li>
+                <li style="display: inline-block;"><img src="img/icon1.png" alt="instrum"><h3>Highly Customizeable</h3><p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p><a href="#">Read More</a></li>
+                <li style="display: inline-block;"><img src="img/icon4.png" alt="mobile"><h3>Mobile Friednly Design</h3><p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p><a href="#">Read More</a></li>
+                <li style="display: inline-block;"> <img src="img/icon5.png" alt="mobile"><h3>Responsive Design</h3><p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p><a href="#">Read More</a></li>
+                <li style="display: inline-block;"><img src="img/icon6.png" alt="nauhniki"><h3>24/7 Online Support</h3><p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p><a href="#">Read More</a></li>
+                <li style="display: inline-block;"><img src="img/icon3.png" alt="paremetr"><h3>Easy To Edit</h3><p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p><a href="#">Read More</a></li>
+                <li style="display: inline-block;"><h3>Lorem Ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></li>
+                <li><h4>Rosalina Pong </h4><a href="#">Founder, </a><a href="#">uithemes </a></li>
+            </div>
+    </div>
+    <div>
+        <div>
+            <h2><span>Subscribe</span>Singup For A Trial</h2>
+            <p>Create your free account now & get 30 days free trail No credit card required</p>
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit" class="btn-s">Subscribe</button>
+        </div>
+        <img src="img/Robot.png" alt="Robot">
+    </div>
+    <div>
+        <div>
+            <div><img src="img/bg.png" alt="bg"></div>
+            <h2>Grab Your  Software With Amazing  Features</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            <dl>
+                <dt>01. Clean Desing</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+
+                <dt>02. Easy To Customize</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+            </dl>
+        </div>
+    </div>
+
+<!-- 6 counter-->
+    <div class="page-counter">
+        <div class="wrap">
+            <h2 class="title-h2"><span>FUn Facts</span>Some Fun Facts About Dashboard</h2>
+            <ul class="list-counter">
+                <li><span>53K</span>Layouts</li>
+                <li><span>10K</span>Projects</li>
+                <li><span>12K</span>Cup coffee</li>
+                <li><span>120</span>Awards</li>
+            </ul>
+        </div>
+    </div>
+<!-- 7 video-->
+
+    <div>
+        <div>
+            <h2>Meet With Future Landingpage</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            <p>Available Now</p>
+            <ul>
+                <li><a href="" target="_blank">Google</a></li>
+                <li><a href="" target="_blank">App</a></li>
+            </ul>
+        </div>
+    </div>
+        <div>
+            <div>
+                <div style="background-color: rgb(0,0,225);"><img src="img/Settings.png" alt="logo"></div>
+                <h2>Limpon Is Suitable For
+                    Anytype LandingPage</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At atque qui, aliquam iusto repellat suscipit
+                    illo obcaecati aperiam alias maiores rerum, tempora aspernatur sequi velit? Quas sunt unde asperiores
+                    reiciendis!</p>
+                <button type="start" class="btn-s1">get started now</button>
+            </div>
+        </div>
+    <div>
+        <div>
+            <div>
+                <div style="background-color: rgb(0,0,225);"><img src="img/Settings.png" alt="logo"></div>
+                <h2>Easy To Etid &
+                    Very Easily Control</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At atque qui, aliquam iusto repellat suscipit
+                    illo obcaecati aperiam alias maiores rerum, tempora aspernatur sequi velit? Quas sunt unde asperiores
+                    reiciendis!</p>
+                <button type="learn" class="btn-s2">learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10 screen-->
+    <div class="page-screen">
+        <h2 class="title-h2-40"><span>screen preview</span>Screenshot</h2>
+        <img src="img/screen.png" alt="Screenshot"> 
+    </div>
+    
+    <!-- 11 clients-->
+    <div class="page-clients">
+        <div>
+            <h2>testimonials<span>Our Happy Clients</span>Our Happy Clients</h2>
+            <div class="box-clients">
+                <div>
+                    <p>It is a long established fact that a read
+                        her will be distracted by the readable
+                        content of a page when looking</p>
+                    <p class="name">Rolin B. Mirano</p>
+                    <p class="position">ceo, uihub</p>
+                </div>
+
+                <div>
+                    <p>It is a long established fact that a read
+                        her will be distracted by the readable
+                        content of a page when looking</p>
+                    <p class="name">Rolin B. Mirano</p>
+                    <p class="position">ceo, uihub</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 12 plan-->
+    <div class="page-plan">
+        <div>
+            <h2 class="title-h2-40"><span>our plans</span>Pricing Plans</h2>
+            <div class="box-price">
+                <div class="box-price-item">
+                    <h3><span>Free</span></h3>
+                    <p><strong>starter</strong></p>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                    </ul>
+                    <button class="btn-s4">Choose plan</button>
+                </div>
+
+                <div class="box-price-item active">
+                    <h3><span>90</span></h3>
+                    <p><strong>starter</strong></p>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                    </ul>
+                    <button class="btn-s3">Choose plan</button>
+                </div>
+
+                <div class="box-price-item">
+                    <h3><span>350</span></h3>
+                    <p><strong>starter</strong></p>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                    </ul>
+                    <button class="btn-s4">Choose plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-team">
+        <div>
+            <h2><span>angels</span>Our Team</h2>
+            <div class="box-team">
+                <img src="img/ava.png" alt="ava">
+                <p class="position">founder</p>
+                <p class="name">Ricardo T. Obrien</p>
+            </div>
+
+            <div class="box-team">
+                <img src="img/ava1.png" alt="ava1">
+                <p class="position">founder</p>
+                <p class="name">Ricardo T. Obrien</p>
+            </div>
+
+            <div class="box-team">
+                <img src="img/ava2.png" alt="ava2">
+                <p class="position">founder</p>
+                <p class="name">Ricardo T. Obrien</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-form">
+        <div>
+            <h2>Start Your Free Trail No Need Credit Card.</h2>
+            <form action="">
+            <input type="text" placeholder="Enter your name here">
+            <input type="email" placeholder="Enter your mail here">
+            <textarea><input type="textMessage" placeholder="Enter your message here"></textarea>
+            <button type="submit" class="btn-primary1"><span></span>Submit now </button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div>
+            <p>Made With Love & Copyright By - <a href="">limpon</a></p>
+            <ul class="social">
+                <li>
+                    <a href="" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
